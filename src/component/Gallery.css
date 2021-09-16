@@ -1,0 +1,100 @@
+.main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.main-heading{
+    margin-top: 1rem;
+    font-size: 28px;
+}
+
+.menu{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+}
+
+.btn-food{
+    border: none;
+    outline: none;
+    border-radius: 2.5px;
+    letter-spacing: 1px;
+    padding: .5rem;
+    background-color: var(--secondary-color);
+    cursor: pointer;
+    margin-inline-end: 4rem;
+}
+
+/* food card */
+hr{
+    width: 90%;
+    margin-top: 1rem;
+}
+
+.food-container{
+    margin-top: 3rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+
+/* food information */
+
+.food-card{
+    margin-bottom: 2.5rem;
+    height: 180px;
+    flex-basis: 30%;
+    display: flex;
+    box-shadow: 0px 8px 16px gray;
+}
+
+
+
+.food-img img{
+   height: 180px; 
+}
+
+.food-info{
+    margin: 0.8rem 0.8rem 0.8rem 0.8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.name-info h1{
+    text-transform: uppercase;
+    font-size: 24px;
+}
+
+.name-info p{
+    font-size: 13px;
+}
+.btn-order{
+    border: none;
+    outline: none;
+    border-radius: 2.5px;
+    letter-spacing: 1px;
+    padding: .5rem;
+    background-color: var(--primary-color)
+}
+
+.price-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price-info h2{
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--primary-color);
+}
+
+
+
